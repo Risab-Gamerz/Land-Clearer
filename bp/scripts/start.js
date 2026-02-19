@@ -1,0 +1,1 @@
+import{world/* xsgwjenhdjajs */as/* xsgwjenhdjajs */_0xw,system/* xsgwjenhdjajs */as/* xsgwjenhdjajs */_0xs}from"@minecraft/server";import{RG/* xsgwjenhdjajs */as/* xsgwjenhdjajs */_0xr}from"./menu";_0xw["beforeEvents"]["itemUse"]["subscribe"]((_0x1)=>{_0xs["run"](()=>{switch(_0x1["itemStack"]["typeId"]){case"rg:clearer_wand":_0xr(_0x1["source"]);break;}});});

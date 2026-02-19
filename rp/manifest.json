@@ -1,0 +1,23 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "§7§bLand Clearer",
+    "description": "§6§7Turn On Beta API",
+    "uuid": "c1f6c2a4-7f3b-4d9a-9b12-6c8e9a1b2d3e",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 16, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "a9b8c7d6-e5f4-4321-9abc-def012345678",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+      "version": [1, 0, 0]
+    }
+  ]
+}

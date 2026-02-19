@@ -1,0 +1,38 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "§7§bLand Clearer",
+    "description": "§6§7Turn On Beta API",
+    "uuid": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 16, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "9b8a7c6d-5e4f-3a2b-1c0d-9e8f7a6b5c4d",
+      "version": [1, 0, 0]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
+      "version": [1, 0, 0],
+      "entry": "scripts/start.js"
+    }
+  ],
+"dependencies": [
+  {
+    "uuid": "c1f6c2a4-7f3b-4d9a-9b12-6c8e9a1b2d3e",
+    "version": [1, 0, 0]
+  },
+  {
+    "module_name": "@minecraft/server",
+    "version": "2.6.0-beta"
+  },
+  {
+    "module_name": "@minecraft/server-ui",
+    "version": "2.1.0-beta"
+  }
+]
+}

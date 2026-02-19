@@ -1,0 +1,37 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+
+    "description": {
+      "identifier": "rg:clearer_wand"
+    },
+
+    "tags": [
+      "crafting_table"
+    ],
+
+    "pattern": [
+      "X#X",
+      "XDX",
+      "XMX"
+    ],
+
+    "key": {
+      "D": {
+        "item": "minecraft:lapis_lazuli"
+      },
+      "#": {
+        "item": "minecraft:diamond"
+      },
+      "M": {
+        "item": "minecraft:stick"
+      }
+    },
+
+    "result": {
+      "item": "rg:clearer_wand",
+      "count": 1
+    }
+
+  }
+}
